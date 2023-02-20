@@ -1,1 +1,13 @@
 # Generative-Adversarial-Network-with-German-Traffic-Sign-Recognition-Benchmark-GTSRB-Dataset
+
+Within this repository, you will find exemplary code that expounds upon the methodology behind generating adversarial examples or counterfeit images utilizing [Generative Adversarial Networks](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/) (GANs). Specifically, our implementation leverages the [German Traffic Sign Recognition Benchmark](https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html) (GTSRB) dataset as a means of training the generator to fabricate counterfeit images that appear genuine. At the core of this architecture are two neural networks, each playing a distinct role in the process. The first network, the generator, is aptly named, as it is trained to fabricate these counterfeit images. The objective of this process is to create images that are of such high quality that they are indistinguishable from genuine images. The second network, the discriminator, is trained to distinguish between the real images and those created by the generator. This rivalry between the two networks is what allows each network to refine its own processes, ultimately leading to the generation of more convincing counterfeit images. As such, the symbiotic interplay between these two networks allows them to constantly adapt and improve, leading to a constantly evolving landscape of counterfeit image generation. 
+
+
+The fundamental aim that underlies the creation of this notebook is to provide a comprehensive and instructive demonstration on constructing a Generative Adversarial Network (GAN) by utilizing diverse types of Deep Learning (DL) model architectures. Through the demonstration of this tutorial, learners will be equipped with the necessary skills and knowledge to design and implement GANs that are tailored to their specific needs, preferences, and objectives. This repository endeavors to furnish learners with the essential tools, resources, and guidance to master the intricate and nuanced concepts of GANs and DL model architecture, enabling them to become adept at creating highly sophisticated and effective machine learning models.
+
+
+
+The goal of GAN training is to learn the distribution of the real data in the latent space, which can then be used to sample new latent points to generate novel images. Typically, the latent space has a much lower dimensionality than the space of the generated images, making it easier to explore and manipulate the space to generate new images.
+
+
+The dataset can be found here====>>>[Link](https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html)
